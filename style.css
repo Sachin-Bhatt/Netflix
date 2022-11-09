@@ -1,0 +1,183 @@
+*
+{
+    margin:0;
+    padding:0;
+}
+body
+{
+    background-color: black;
+}
+.header
+{
+    height: 600px;
+}
+#background-img
+{
+    width:100vw;
+    height: 600px;
+}
+.box
+{ 
+    z-index: -1;
+}
+#logo
+{
+    z-index: 2;
+    height:40px;
+    width:auto;
+}
+select
+{
+    height: 33px;
+}
+.align
+{
+   text-align: center;
+}
+h1{
+    font-size: 45px;
+    line-height: 1;
+    text-align: center;
+}
+.headerh2
+{
+    margin-top: 20px;
+    font-size: 25px;
+}
+.headerh3
+{
+    margin: 20px 0px;
+    font-size: 20px; 
+}
+.btn-color
+{
+    background-color:#e50914;
+}
+.btn-color:hover
+{
+    background-color:#f52731;
+}
+.email
+{
+    margin-top: -30px;
+    height:600px;
+}
+.block
+{
+    height: 6px;
+    width: 100%;
+    background-color: rgb(58, 56, 56);
+}
+.tvcontainer
+{
+    height: 420px;
+    width: 100%;
+}
+.tvcontainer h2
+{
+   font-size: 23px;
+}
+#tv-img
+{
+    height: 350px;
+}
+.mobilecontainer
+{
+    height: 420px;
+    width: 100%;
+}
+#mobile-img
+{
+    height: 350px;
+}
+.mobilecontainer h2
+{
+   font-size: 23px;
+   text-align: center;
+}
+.pccontainer
+{
+    height: 450px;
+    width: 100%;
+}
+.pccontainer h2
+{
+   font-size: 23px;
+   text-align: center;
+}
+.cartoon-container
+{
+    height: 470px;
+    width: 100%;
+}
+.cartoon-container h2
+{
+   font-size: 23px;
+   text-align: center;
+}
+
+.faq h1{
+    margin-top: 30px;
+    padding-bottom: 40px;
+    font-size: 3rem;
+}
+.questions{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 40%;
+    align-items: center;
+}
+.questions li{
+    padding: 20px 30px;
+    margin: 5px;
+    font-size: 1.6rem;
+    background-color: #303030;
+    color: white;
+    text-align: left;
+    width: 60%;
+    list-style: none;
+}
+
+.faq{
+    text-align: center;
+}
+.faq p{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.btn-size
+{
+    width: 600px;
+    margin: auto;
+}
+
+.footer{
+    max-width: 70%;
+    margin: 1rem auto;
+    overflow: auto;
+}
+
+.footer ,
+.footer a{
+    margin-top: 50px;
+    color: #999999;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
+.footer p{
+    margin-left: 30px;
+}
+
+.footer .footer-cols{
+    display: grid;
+    grid-template-columns: repeat(4 , 1fr);
+    grid-gap: 2rem;
+}
+
+.footer li{
+    line-height: 2.4;
+    list-style: none;
+}
